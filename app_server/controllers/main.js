@@ -2,5 +2,5 @@ var express = require('express');
 var router = express.Router();
 
 module.exports.index=function(req , res , next) {
-  res.render('index' , { title:'MERHABA YAKIŞIKLI' });
+  res.render('index' , { title:'Ahmet Mahmut ÖZDEMİR' });
 }
