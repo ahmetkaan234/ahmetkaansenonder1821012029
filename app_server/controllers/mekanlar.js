@@ -4,6 +4,7 @@ var router = express.Router();
 const anaSayfa=function(req,res,next){
  res.render('mekanlar-liste',{
  	'baslik':'Anasayfa',
+ 	'footer' : 'Ahmet Kaan ŞENÖNDER',
  	'sayfaBaslik': {
  		'siteAd':'Mekan32',
  		'aciklama':'Isparta Civarındaki Mekanları Keşfedin!!'
@@ -52,6 +53,7 @@ const mekanBilgisi=function(req,res,next){
  res.render('mekan-detay',{
  	'baslik':'Mekan Bilgisi',
  	'sayfaBaslik':'Starbucks',
+ 	'footer' : 'Ahmet Kaan ŞENÖNDER',
  	'mekanBilgisi':{
  		'ad':'Starbucks',
  		'adres':'Centrum Garden AVM',
